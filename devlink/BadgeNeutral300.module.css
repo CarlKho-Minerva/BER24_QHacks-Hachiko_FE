@@ -1,0 +1,27 @@
+.neutral-badge {
+  display: inline-block;
+  padding: 4px 8px;
+
+  border-radius: 32px;
+
+  background-color: var(--neutral800-44c33ad4);
+
+  color: var(--neutral100-07926372);
+  font-size: 12px;
+  line-height: 1.333em;
+  font-weight: 500;
+}
+
+.neutral-badge.neutral-500 {
+  background-color: var(--neutral500-769b0229);
+}
+
+.neutral-badge.neutral-300 {
+  background-color: var(--neutral300-37cef123);
+  color: var(--neutral700-199ad8fd);
+}
+
+.neutral-badge.neutral-200 {
+  background-color: var(--neutral200-a8c051b2);
+  color: var(--neutral600-06b40b4b);
+}

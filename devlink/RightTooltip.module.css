@@ -1,0 +1,156 @@
+.display-inline-block {
+  display: inline-block;
+}
+
+.position-relative---z-index-1 {
+  position: relative;
+  z-index: 1;
+}
+
+.flex-horizontal {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.gap-column-4px {
+  grid-column-gap: 4px;
+}
+
+@media screen and (max-width: 479px) {
+  .flex-horizontal.vertical-mbp {
+    flex-direction: column;
+  }
+}
+
+.flex-horizontal.gap-column-12px {
+  grid-column-gap: 12px;
+}
+
+.gap-column-12px {
+  grid-column-gap: 12px;
+}
+
+.gap-column-16px {
+  grid-column-gap: 16px;
+}
+
+.flex-horizontal.children-wrap {
+  flex-wrap: wrap;
+}
+
+.flex-horizontal.children-wrap.gap-16px---8px {
+  grid-column-gap: 16px;
+  grid-row-gap: 8px;
+}
+
+.flex-horizontal.align-start {
+  align-items: flex-start;
+}
+
+@media screen and (max-width: 479px) {
+  .flex-horizontal.align-start.gap-column-16px {
+    grid-column-gap: 12px;
+  }
+}
+
+.flex-horizontal.justify-start {
+  justify-content: flex-start;
+}
+
+.flex-horizontal.justify-end {
+  justify-content: flex-end;
+}
+
+.text-100 {
+  font-size: 14px;
+  line-height: 1.286em;
+  font-weight: 400;
+}
+
+.text-100.medium {
+  font-weight: 500;
+}
+
+.color-neutral-600 {
+  color: var(--neutral600-06b40b4b);
+}
+
+.color-neutral-800 {
+  color: var(--neutral800-44c33ad4);
+}
+
+.color-neutral-700 {
+  color: var(--neutral700-199ad8fd);
+}
+
+.text-100.bold {
+  font-weight: 700;
+}
+
+.text-100.dropdown-column-title {
+  margin-bottom: 16px;
+
+  color: var(--neutral800-44c33ad4);
+  font-weight: 700;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  white-space: nowrap;
+}
+
+.tooltip {
+  position: absolute;
+
+  display: flex;
+  max-width: 500px;
+  min-width: 100px;
+  padding: 6px 8px;
+  justify-content: center;
+  align-items: center;
+
+  border: 1px solid var(--neutral300-37cef123);
+  border-radius: 4px;
+
+  background-color: var(--neutral100-07926372);
+
+  box-shadow: 0 2px 7px 0 var(--generalShadow02-cfed2663);
+
+  font-size: 12px;
+  line-height: 1em;
+}
+
+.tooltip.right {
+  right: -16px;
+  transform: translate(100%, 0px);
+}
+
+.tooltip.left {
+  left: -16px;
+  transform: translate(-100%, 0px);
+}
+
+.tooltip.top {
+  top: -16px;
+  align-self: center;
+  transform: translate(0px, -100%);
+  text-align: center;
+}
+
+.tooltip.bottom {
+  bottom: -16px;
+  transform: translate(0px, 100%);
+  text-align: center;
+}
+
+.tooltip-triangle-left {
+  position: absolute;
+  left: -6px;
+}
+
+#w-node-_1d426e64-f789-ee8f-5504-71af877ec3a3-877ec3a3 {
+  grid-column-start: span 1;
+  grid-column-end: span 1;
+  grid-row-start: span 1;
+  grid-row-end: span 1;
+  justify-self: start;
+}

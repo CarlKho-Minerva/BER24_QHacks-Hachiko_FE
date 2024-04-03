@@ -1,0 +1,26 @@
+.primary-badge {
+  display: inline-block;
+  padding: 4px 8px;
+
+  border: 1px solid transparent;
+  border-radius: 32px;
+
+  background-image: linear-gradient(to bottom, hsla(219.58762886597935, 100.00%, 61.96%, 1.00), hsla(234, 100.00%, 64.71%, 1.00));
+
+  color: var(--neutral100-07926372);
+  font-size: 12px;
+  line-height: 1.333em;
+  font-weight: 500;
+}
+
+.primary-badge.light {
+  background-color: var(--secondaryColor2-8edf41ba);
+  background-image: none;
+  color: var(--accentPrimary1-86b36df2);
+}
+
+.primary-badge.white {
+  border-color: var(--accentPrimary1-86b36df2);
+  background-image: none;
+  color: var(--accentPrimary1-86b36df2);
+}

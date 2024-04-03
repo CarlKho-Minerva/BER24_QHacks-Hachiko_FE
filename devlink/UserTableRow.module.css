@@ -1,0 +1,136 @@
+.user-table-row {
+  display: grid;
+  min-width: 640px;
+  padding: 16px 24px;
+  justify-items: start;
+  align-items: center;
+  grid-auto-columns: 1fr;
+  grid-column-gap: 10px;
+  grid-template-columns: 2.5fr 2fr 0.75fr 0.5fr;
+  grid-template-rows: auto;
+
+  border-top: 1px solid var(--neutral300-37cef123);
+}
+
+@media screen and (max-width: 767px) {
+  .user-table-row {
+    grid-template-columns: 2.5fr 1.5fr 1fr 0.8fr;
+  }
+}
+
+.user-table-row.table-header {
+  position: relative;
+  z-index: 1;
+
+  margin-bottom: -1px;
+
+  border-top-style: none;
+
+  background-color: var(--neutral200-a8c051b2);
+
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+
+.flex {
+  display: flex;
+}
+
+.flex.align-center {
+  align-items: center;
+}
+
+.flex.align-center.gap-column-6px {
+  grid-column-gap: 6px;
+}
+
+.gap-column-6px {
+  grid-column-gap: 6px;
+}
+
+.gap-column-4px {
+  grid-column-gap: 4px;
+}
+
+@media screen and (max-width: 479px) {
+  .flex.align-center.gap-column-16px {
+    grid-column-gap: 12px;
+  }
+}
+
+.gap-column-16px {
+  grid-column-gap: 16px;
+}
+
+.gap-column-12px {
+  grid-column-gap: 12px;
+}
+
+.flex.align-start {
+  align-items: flex-start;
+}
+
+.flex.align-end {
+  align-items: flex-end;
+}
+
+.text-100 {
+  font-size: 14px;
+  line-height: 1.286em;
+  font-weight: 400;
+}
+
+.text-100.medium {
+  font-weight: 500;
+}
+
+.color-neutral-600 {
+  color: var(--neutral600-06b40b4b);
+}
+
+.color-neutral-800 {
+  color: var(--neutral800-44c33ad4);
+}
+
+.flex-horizontal {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.color-neutral-700 {
+  color: var(--neutral700-199ad8fd);
+}
+
+.text-100.bold {
+  font-weight: 700;
+}
+
+.text-100.dropdown-column-title {
+  margin-bottom: 16px;
+
+  color: var(--neutral800-44c33ad4);
+  font-weight: 700;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  white-space: nowrap;
+}
+
+#w-node-_6a4ea280-e617-06de-df72-405915f9dada-15f9dad2 {
+  grid-column-start: span 1;
+  grid-column-end: span 1;
+  grid-row-start: span 1;
+  grid-row-end: span 1;
+}
+#w-node-_6a4ea280-e617-06de-df72-405915f9dadf-15f9dad2 {
+  grid-column-start: span 1;
+  grid-column-end: span 1;
+  grid-row-start: span 1;
+  grid-row-end: span 1;
+}
+#w-node-_6a4ea280-e617-06de-df72-405915f9dae4-15f9dad2 {
+  grid-column-start: span 1;
+  grid-column-end: span 1;
+  grid-row-start: span 1;
+  grid-row-end: span 1;
+}

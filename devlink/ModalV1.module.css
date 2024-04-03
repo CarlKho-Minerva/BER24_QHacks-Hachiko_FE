@@ -1,0 +1,28 @@
+.modal-wrapper {
+  position: fixed;
+  left: 0px;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  z-index: 999;
+
+  display: none;
+  padding: 24px;
+  justify-content: center;
+  align-items: center;
+
+  background-color: hsla(0, 0.00%, 0.00%, 0.50);
+}
+
+.modal-close-overlay {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  z-index: -1;
+}
+
+#w-node-a3508ca5-a024-de47-6584-e8a67cb3525f-7cb3525f {
+  justify-self: center;
+}

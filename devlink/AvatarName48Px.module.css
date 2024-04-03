@@ -1,0 +1,54 @@
+.avatar-name-circle {
+  display: flex;
+  overflow: hidden;
+  justify-content: center;
+  align-items: center;
+
+  border-style: solid;
+  border-width: 1px;
+  border-color: hsla(225, 67.80%, 53.73%, 1.00);
+  border-radius: 100%;
+
+  background-image: linear-gradient(to bottom, hsla(219.58762886597935, 100.00%, 61.96%, 1.00), hsla(234, 100.00%, 64.71%, 1.00));
+
+  box-shadow: 0 1px 4px 0 hsla(244.87309644670052, 100.00%, 61.37%, 0.26);
+
+  color: var(--neutral100-07926372);
+  font-weight: 700;
+}
+
+.avatar-name-circle._24px {
+  max-height: 24px;
+  max-width: 24px;
+  min-height: 24px;
+  min-width: 24px;
+
+  font-size: 12px;
+  line-height: 1.333em;
+}
+
+.avatar-name-circle._32px {
+  max-height: 32px;
+  max-width: 32px;
+  min-height: 32px;
+  min-width: 32px;
+
+  font-size: 12px;
+  line-height: 1.333em;
+}
+
+.avatar-name-circle._40px {
+  max-height: 400px;
+  max-width: 40px;
+  min-height: 40px;
+  min-width: 40px;
+  line-height: 1.286em;
+}
+
+.avatar-name-circle._48px {
+  max-height: 48px;
+  max-width: 48px;
+  min-height: 48px;
+  min-width: 48px;
+  line-height: 1.286em;
+}

@@ -1,0 +1,30 @@
+import * as React from "react";
+import * as Types from "./types";
+
+declare function Dropdown(props: {
+  as?: React.ElementType;
+  labelVisibility?: Types.Visibility.VisibilityConditions;
+  labelText?: React.ReactNode;
+  dropdownText?: React.ReactNode;
+  dropdownListSlot?: Types.Devlink.Slot;
+  item1CheckboxVisibility?: Types.Visibility.VisibilityConditions;
+  item1IconVisibility?: Types.Visibility.VisibilityConditions;
+  item1IconImage?: Types.Asset.Image;
+  item1LinkText?: React.ReactNode;
+  item2CheckboxVisibility?: Types.Visibility.VisibilityConditions;
+  item2IconVisibility?: Types.Visibility.VisibilityConditions;
+  item2IconImage?: Types.Asset.Image;
+  item2LinkText?: React.ReactNode;
+  item3CheckboxVisibility?: Types.Visibility.VisibilityConditions;
+  item3IconVisibility?: Types.Visibility.VisibilityConditions;
+  item3IconImage?: Types.Asset.Image;
+  item3LinkText?: React.ReactNode;
+  item4CheckboxVisibility?: Types.Visibility.VisibilityConditions;
+  item4IconVisibility?: Types.Visibility.VisibilityConditions;
+  item4IconImage?: Types.Asset.Image;
+  item4LinkText?: React.ReactNode;
+  item1CheckboxProps?: Types.Devlink.RuntimeProps;
+  item2CheckboxProps?: Types.Devlink.RuntimeProps;
+  item3CheckboxProps?: Types.Devlink.RuntimeProps;
+  item4CheckboxProps?: Types.Devlink.RuntimeProps;
+}): React.JSX.Element;

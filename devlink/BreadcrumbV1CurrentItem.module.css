@@ -1,0 +1,41 @@
+.text-100 {
+  font-size: 14px;
+  line-height: 1.286em;
+  font-weight: 400;
+}
+
+.text-100.medium {
+  font-weight: 500;
+}
+
+.color-neutral-600 {
+  color: var(--neutral600-06b40b4b);
+}
+
+.color-neutral-800 {
+  color: var(--neutral800-44c33ad4);
+}
+
+.flex-horizontal {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.color-neutral-700 {
+  color: var(--neutral700-199ad8fd);
+}
+
+.text-100.bold {
+  font-weight: 700;
+}
+
+.text-100.dropdown-column-title {
+  margin-bottom: 16px;
+
+  color: var(--neutral800-44c33ad4);
+  font-weight: 700;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  white-space: nowrap;
+}

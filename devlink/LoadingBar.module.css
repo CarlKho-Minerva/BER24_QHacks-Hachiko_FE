@@ -1,0 +1,14 @@
+.loading-bar-wrapper {
+  position: fixed;
+  left: 0px;
+  top: 0px;
+  right: 0px;
+  z-index: 900000000000000;
+
+  display: none;
+}
+
+.loading-bar {
+  min-height: 4px;
+  background-image: linear-gradient(to bottom, var(--accentPrimary1-86b36df2), var(--secondaryColor3-d675572e));
+}

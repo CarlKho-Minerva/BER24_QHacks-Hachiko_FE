@@ -1,0 +1,139 @@
+.checkbox-and-label-container {
+  position: relative;
+  z-index: 1;
+
+  display: flex;
+  margin-bottom: 0px;
+  padding-left: 0px;
+  align-items: center;
+
+  color: var(--neutral600-06b40b4b);
+}
+
+.checkbox-wrapper {
+  position: relative;
+  z-index: 1;
+
+  max-height: 14px;
+  max-width: 14px;
+  min-height: 14px;
+  min-width: 14px;
+  margin-right: 6px;
+
+  border-radius: 2px;
+
+  cursor: pointer;
+}
+
+.checkbox {
+  width: auto;
+  height: auto;
+  min-height: 14px;
+  min-width: 14px;
+  margin-top: 0px;
+  margin-right: 6px;
+  margin-left: 0px;
+
+  border: 0.8px solid var(--neutral400-e617119b);
+  border-radius: 2px;
+
+  background-color: var(--neutral100-07926372);
+
+  box-shadow: inset 0 -2px 4px 0 hsla(224.1509433962264, 46.09%, 22.55%, 0.10), 0 0 1px 0 hsla(224.1509433962264, 46.09%, 22.55%, 0.20);
+
+  transition: border-color 300ms ease,background-color 300ms ease;
+}
+
+.checkbox:hover {
+  border-color: var(--neutral400-e617119b);
+}
+
+.checkbox:global(.w--redirected-checked) {
+  margin-top: 0px;
+  margin-left: 0px;
+
+  border-color: hsla(225, 67.80%, 53.73%, 1.00);
+
+  background-color: transparent;
+  background-image: url("https://uploads-ssl.webflow.com/660d670d57461f6bb915c687/660d670e57461f6bb915c8bc_check-form-brix-templates-webflow.svg"), linear-gradient(to bottom, hsla(219.58762886597935, 100.00%, 61.96%, 1.00), hsla(234, 100.00%, 64.71%, 1.00));
+  background-position: 50% 50%, 0px 0px;
+  background-size: 8px, auto;
+  background-repeat: no-repeat, repeat;
+}
+
+.checkbox:global(.w--redirected-focus) {
+  box-shadow: none;
+}
+
+.checkbox.mg-right-0 {
+  margin-right: 0px;
+}
+
+.checkbox-bg {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  border-style: solid;
+  border-width: 0.8px;
+  border-color: hsla(225, 67.80%, 53.73%, 1.00);
+  border-radius: 2px;
+
+  background-image: linear-gradient(to bottom, hsla(219.58762886597935, 100.00%, 61.96%, 1.00), hsla(234, 100.00%, 64.71%, 1.00));
+
+  opacity: 0;
+
+  transition: opacity 300ms ease;
+}
+
+.checkbox-bg.active {
+  opacity: 1;
+}
+
+.text-100 {
+  font-size: 14px;
+  line-height: 1.286em;
+  font-weight: 400;
+}
+
+.text-100.medium {
+  font-weight: 500;
+}
+
+.color-neutral-600 {
+  color: var(--neutral600-06b40b4b);
+}
+
+.color-neutral-800 {
+  color: var(--neutral800-44c33ad4);
+}
+
+.flex-horizontal {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.color-neutral-700 {
+  color: var(--neutral700-199ad8fd);
+}
+
+.text-100.bold {
+  font-weight: 700;
+}
+
+.text-100.dropdown-column-title {
+  margin-bottom: 16px;
+
+  color: var(--neutral800-44c33ad4);
+  font-weight: 700;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  white-space: nowrap;
+}

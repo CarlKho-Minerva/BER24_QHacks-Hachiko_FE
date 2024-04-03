@@ -1,0 +1,6 @@
+.breadcrumb-wrapper {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  grid-row-gap: 8px;
+}

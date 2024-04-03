@@ -1,0 +1,57 @@
+.text-area {
+  min-height: 88px;
+  margin-bottom: 0px;
+  padding: 14px;
+
+  border: 1px solid var(--neutral400-e617119b);
+  border-radius: 6px;
+
+  box-shadow: 0 0 4px 0 var(--generalShadow01-46332da7);
+
+  transition: border-color 300ms ease,color 300ms ease;
+
+  color: var(--neutral800-44c33ad4);
+  font-weight: 500;
+}
+
+.text-area:hover {
+  border-color: var(--neutral500-769b0229);
+}
+
+.text-area:focus {
+  border-color: var(--accentPrimary1-86b36df2);
+}
+
+.text-area::placeholder {
+  color: var(--neutral600-06b40b4b);
+}
+
+.text-area.icon-inside {
+  text-indent: 16px;
+}
+
+.position-relative---z-index-1 {
+  position: relative;
+  z-index: 1;
+}
+
+.flex-horizontal {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.text-area-icon-inside {
+  position: absolute;
+  left: 14px;
+  top: 18px;
+
+  max-height: 12px;
+  max-width: 12px;
+  min-height: 12px;
+  min-width: 12px;
+
+  font-family: 'Line Rounded Icons';
+  font-size: 14px;
+  line-height: 1em;
+}

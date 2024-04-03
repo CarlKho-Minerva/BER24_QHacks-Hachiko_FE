@@ -1,0 +1,91 @@
+.input {
+  min-height: 40px;
+  margin-bottom: 0px;
+  padding: 14px;
+
+  border: 1px solid var(--neutral400-e617119b);
+  border-radius: 6px;
+
+  background-color: var(--neutral100-07926372);
+
+  box-shadow: 0 0 4px 0 var(--generalShadow01-46332da7);
+
+  transition: color 300ms ease,border-color 300ms ease;
+
+  color: var(--neutral800-44c33ad4);
+  font-size: 14px;
+  line-height: 1.286em;
+  font-weight: 500;
+}
+
+.input:hover {
+  border-color: var(--neutral500-769b0229);
+}
+
+.input:focus {
+  border-color: var(--accentPrimary1-86b36df2);
+}
+
+.input::placeholder {
+  color: var(--neutral600-06b40b4b);
+}
+
+.input.mg-bottom-16px {
+  margin-bottom: 16px;
+}
+
+.mg-bottom-16px {
+  margin-bottom: 16px;
+}
+
+@media screen and (max-width: 479px) {
+  .mg-bottom-16px {
+    margin-bottom: 12px;
+  }
+}
+
+.input.icon-inside-left {
+  padding-left: 32px;
+}
+
+.input.icon-inside-right {
+  padding-right: 32px;
+}
+
+.position-relative---z-index-1 {
+  position: relative;
+  z-index: 1;
+}
+
+.flex-horizontal {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.icon-inside-input-right {
+  position: absolute;
+  right: 14px;
+  z-index: 1;
+
+  max-height: 12px;
+  max-width: 12px;
+  min-height: 12px;
+  min-width: 12px;
+
+  font-family: 'Line Rounded Icons';
+  font-size: 12px;
+  line-height: 1em;
+}
+
+.icon-inside-input-left {
+  position: absolute;
+  left: 14px;
+
+  max-height: 12px;
+  max-width: 12px;
+  min-height: 12px;
+  min-width: 12px;
+
+  font-family: 'Line Rounded Icons';
+}

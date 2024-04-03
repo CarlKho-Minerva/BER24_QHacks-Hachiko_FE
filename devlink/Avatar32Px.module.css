@@ -1,0 +1,35 @@
+.avatar-circle {
+  overflow: hidden;
+  width: 100%;
+  border-radius: 50%;
+  transform: translate(0px, 0px);
+}
+
+.avatar-circle._24px {
+  max-height: 24px;
+  max-width: 24px;
+  min-height: 24px;
+  min-width: 24px;
+}
+
+.avatar-circle._32px {
+  max-height: 32px;
+  max-width: 32px;
+  min-height: 32px;
+  min-width: 32px;
+}
+
+.avatar-circle._40px {
+  max-height: 40px;
+  max-width: 40px;
+  min-height: 40px;
+  min-width: 40px;
+  object-fit: cover;
+}
+
+.avatar-circle._48px {
+  max-height: 48px;
+  max-width: 48px;
+  min-height: 48px;
+  min-width: 48px;
+}

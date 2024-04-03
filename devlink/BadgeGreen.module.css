@@ -1,0 +1,30 @@
+.color-badge {
+  display: inline-block;
+  padding: 4px 8px;
+
+  border-radius: 32px;
+
+  font-size: 12px;
+  line-height: 1.333em;
+  font-weight: 500;
+}
+
+.color-badge.green {
+  background-color: var(--systemGreen100-7d2bc8f0);
+  color: var(--systemGreen300-d9137fb2);
+}
+
+.color-badge.blue {
+  background-color: var(--systemBlue100-e6ec058e);
+  color: var(--systemBlue300-6ffa721c);
+}
+
+.color-badge.red {
+  background-color: var(--systemRed100-757a308e);
+  color: var(--system300-6ada6106);
+}
+
+.color-badge.orange {
+  background-color: var(--systemOrange100-8eddcd7a);
+  color: var(--systemOrange300-40ad00c4);
+}
